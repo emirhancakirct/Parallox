@@ -1,106 +1,98 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-.first-page{
-    height:100vh;
-    position:relative;
+body, html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    height: 100%;
 }
 
-.first-page img {
-width: 100%;
-height:100%;
-position:fixed;
+p{
+    margin-top:15px;
+}
+p, h2{
+    line-height: 40px;
+}
+h1{
+    line-height: 80px;
+    font-size: 4rem;
+}
+.background--1{
+    background-image: url(bg.jpg);
+    min-height: 100%;
+}
+.background--2{
+    background-image: url(bg2.jpg);
+    min-height: 80%;
+}
+.background--3{
+    background-image: url(bg3.jpg);
+    min-height: 80%;
+}
+.background--4{
+    background-image: url(bg4.jpg);
+    min-height: 80%;
 }
 
-.name{
-    margin:auto;
-    position:absolute;
-    left:50%;
-    top:50%;
-    font-size: 64px;
-    color:white;
-    background-color: darkslategrey;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding:10px;
-    outline: 5px solid purple;
-    outline-offset: 10px;
-}
-
-#img01{
-    background-image: url(./bg.jpg);
-    background-position:center;
-    background-attachment: fixed;
-    height:100%;
+.background--1,
+.background--2,
+.background--3,
+.background--4{
+    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
-
-.full-stack{
-    background-color:#a8a8a879;
+#big-text{
+    padding: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    letter-spacing: .5rem;
+    outline: 32px solid rgb(88, 8, 88);
+    outline-offset: 14px;
+    outline-style:groove;
+}
+#small-text{
+    padding: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    letter-spacing: .5rem;
+    outline: 32px solid rgb(88, 8, 88);
+    outline-offset: 14px;
+    outline-style:groove;
+}
+div{
+    padding: 5rem;
     text-align: center;
-    padding:15px;
-    font-size:40px;
-    height: 30%;
-    position:absolute;
-    top:0;
-
+}
+.paragraph-1{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #666666;
+}
+.paragraph-2{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #dddddd;
+}
+.paragraph-3{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #666666;
+}
+.paragraph-4{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #dddddd;
 }
 
-.text1{
-    background-color:grey;
-    padding-top:15px;
-    font-size:64x;
-}
-
-.parent-full-stack{
-    position:relative;
-    height:100vh;
-}
-
-#img02{
-    background-image: url(./bg1.jpg);
-    background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
-    height:100%;
-    background-repeat: no-repeat;
-
-}
-
-
-#clarusway{
-  position:absolute;
-  /* width:100px; */
-  top:70%;
-  left:50%;
-  transform:translate(-50%, -50%);
-
-}
-
-.text2{
-    background-color:grey;
-    padding-top:15px;
-    font-size:64x;
-}
-.aws{
-    background-color:#a8a8a879;
-    text-align: center;
-    padding:15px;
-    font-size:40px;
-    height: 30%;
-    position:absolute;
-    top:0;
-}
-
-#img-03{
-    background-image: url(./bg3.jpg);
-    background-size: cover;
-    background-position:center;
-    background-attachment: fixed;
-    height:100%;
-    background-repeat: no-repeat;
-
+.clarusway-logo{
+    width:30%;
 }
